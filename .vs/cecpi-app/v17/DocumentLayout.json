@@ -1,0 +1,393 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\components\\ParallaxSection.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\components\\ParallaxSection.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\Home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\MeetingChat.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\MeetingChat.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\nueva-clase.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\nueva-clase.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\meeting.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\meeting.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\utils\\api.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\api.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\amplify\\backend\\api\\cecpiapp\\schema.graphql||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:amplify\\backend\\api\\cecpiapp\\schema.graphql||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\amplify\\backend\\function\\meetingLambda\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:amplify\\backend\\function\\meetingLambda\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\components\\MeetingInformation.jsx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\MeetingInformation.jsx||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\calendario.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\calendario.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\program.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\program.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\actividades.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\actividades.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\meeting-form.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\meeting-form.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\ui-components\\MeetingCreateForm.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ui-components\\MeetingCreateForm.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\unirse-clase.jsx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\unirse-clase.jsx||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\type.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\type.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\step.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\step.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\backend\\payments.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\payments.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\inscripcion.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\inscripcion.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\nopage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\nopage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\ia.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\ia.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ParallaxSection.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\components\\ParallaxSection.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\components\\ParallaxSection.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\components\\ParallaxSection.jsx",
+              "RelativeToolTip": "src\\pages\\components\\ParallaxSection.jsx",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-04-13T18:09:56.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\App.jsx",
+              "RelativeDocumentMoniker": "src\\App.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\App.jsx",
+              "RelativeToolTip": "src\\App.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-04-12T18:05:56.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "api.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\utils\\api.jsx",
+              "RelativeDocumentMoniker": "src\\utils\\api.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\utils\\api.jsx",
+              "RelativeToolTip": "src\\utils\\api.jsx",
+              "ViewState": "AQIAABUAAAAAAAAAAAApwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-03-05T18:09:53.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MeetingChat.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\MeetingChat.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\MeetingChat.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\MeetingChat.jsx",
+              "RelativeToolTip": "src\\pages\\MeetingChat.jsx",
+              "ViewState": "AQIAACUAAAAAAAAAAAD4v1oAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-03-22T19:22:39.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "meeting.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\meeting.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\meeting.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\meeting.jsx",
+              "RelativeToolTip": "src\\pages\\meeting.jsx",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAMEBAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-03-05T17:27:05.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "schema.graphql",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\amplify\\backend\\api\\cecpiapp\\schema.graphql",
+              "RelativeDocumentMoniker": "amplify\\backend\\api\\cecpiapp\\schema.graphql",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\amplify\\backend\\api\\cecpiapp\\schema.graphql",
+              "RelativeToolTip": "amplify\\backend\\api\\cecpiapp\\schema.graphql",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-05T18:37:43.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-03-05T16:53:48.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\Home.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\Home.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\Home.jsx",
+              "RelativeToolTip": "src\\pages\\Home.jsx",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAAAG0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-02-19T14:23:03.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "nueva-clase.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\nueva-clase.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\nueva-clase.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\nueva-clase.jsx",
+              "RelativeToolTip": "src\\pages\\nueva-clase.jsx",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAABUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-03-26T14:32:32.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\amplify\\backend\\function\\meetingLambda\\src\\index.js",
+              "RelativeDocumentMoniker": "amplify\\backend\\function\\meetingLambda\\src\\index.js",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\amplify\\backend\\function\\meetingLambda\\src\\index.js",
+              "RelativeToolTip": "amplify\\backend\\function\\meetingLambda\\src\\index.js",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAwwCQBAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-05T20:16:31.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MeetingInformation.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\components\\MeetingInformation.jsx",
+              "RelativeDocumentMoniker": "src\\components\\MeetingInformation.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\components\\MeetingInformation.jsx",
+              "RelativeToolTip": "src\\components\\MeetingInformation.jsx",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-04-10T00:17:21.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "calendario.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\calendario.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\calendario.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\calendario.jsx",
+              "RelativeToolTip": "src\\pages\\calendario.jsx",
+              "ViewState": "AQIAAAQBAAAAAAAAAAAUwA0BAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-03-07T14:24:28.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "program.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\program.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\program.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\program.jsx",
+              "RelativeToolTip": "src\\pages\\program.jsx",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAQwCcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-03-06T17:42:30.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "actividades.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\actividades.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\actividades.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\actividades.jsx",
+              "RelativeToolTip": "src\\pages\\actividades.jsx",
+              "ViewState": "AQIAAGwBAAAAAAAAAAAwwIABAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-02-26T14:00:40.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "meeting-form.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\meeting-form.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\meeting-form.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\meeting-form.jsx",
+              "RelativeToolTip": "src\\pages\\meeting-form.jsx",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAAwCgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-03-05T17:34:23.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MeetingCreateForm.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\ui-components\\MeetingCreateForm.jsx",
+              "RelativeDocumentMoniker": "src\\ui-components\\MeetingCreateForm.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\ui-components\\MeetingCreateForm.jsx",
+              "RelativeToolTip": "src\\ui-components\\MeetingCreateForm.jsx",
+              "ViewState": "AQIAAIEBAAAAAAAAAAAAwLgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-03-13T00:28:44.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "type.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\type.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\type.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\type.jsx",
+              "RelativeToolTip": "src\\pages\\type.jsx",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-02-20T16:52:24.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "unirse-clase.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\unirse-clase.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\unirse-clase.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\unirse-clase.jsx",
+              "RelativeToolTip": "src\\pages\\unirse-clase.jsx",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEUAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-03-13T15:04:50.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "step.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\step.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\step.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\step.jsx",
+              "RelativeToolTip": "src\\pages\\step.jsx",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAAwH0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-02-29T16:50:10.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "payments.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\backend\\payments.jsx",
+              "RelativeDocumentMoniker": "backend\\payments.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\backend\\payments.jsx",
+              "RelativeToolTip": "backend\\payments.jsx",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAgwFUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-02-21T23:08:04.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "inscripcion.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\inscripcion.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\inscripcion.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\inscripcion.jsx",
+              "RelativeToolTip": "src\\pages\\inscripcion.jsx",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-03-05T18:53:54.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "nopage.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\nopage.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\nopage.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\nopage.jsx",
+              "RelativeToolTip": "src\\pages\\nopage.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-02-19T14:23:24.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ia.jsx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\ia.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\ia.jsx",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\Programacion\\React\\CECPI\\cecpi-app\\src\\pages\\ia.jsx",
+              "RelativeToolTip": "src\\pages\\ia.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-02-19T14:23:10.916Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

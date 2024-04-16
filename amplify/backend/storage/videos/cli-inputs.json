@@ -1,0 +1,12 @@
+{
+  "resourceName": "videos",
+  "policyUUID": "c0bc83b0",
+  "bucketName": "cecpiapp35b91f13ff1044b6998d644a10a3a23f",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "READ"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

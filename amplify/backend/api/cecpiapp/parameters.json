@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "cecpiapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2024-02-23T18:46:22.279Z",
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authcecpiapp723fc4d9",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

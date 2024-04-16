@@ -1,0 +1,38 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cecpiapp-dev-124814-authRole",
+      "UnauthRoleArn": "arn:aws:iam::449314745890:role/amplify-cecpiapp-dev-124814-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::449314745890:role/amplify-cecpiapp-dev-124814-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-cecpiapp-dev-124814-deployment",
+      "UnauthRoleName": "amplify-cecpiapp-dev-124814-unauthRole",
+      "StackName": "amplify-cecpiapp-dev-124814",
+      "StackId": "arn:aws:cloudformation:us-east-1:449314745890:stack/amplify-cecpiapp-dev-124814/90c198f0-ccf3-11ee-9de7-12bb131636dd",
+      "AmplifyAppId": "d1qzlyeu3wqsd7"
+    },
+    "categories": {
+      "api": {
+        "cecpiapp": {}
+      },
+      "auth": {
+        "cecpiapp723fc4d9": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1qzlyeu3wqsd7",
+          "type": "manual"
+        }
+      },
+      "storage": {
+        "videos": {}
+      },
+      "function": {
+        "meetingLambda": {
+          "deploymentBucketName": "amplify-cecpiapp-dev-124814-deployment",
+          "s3Key": "amplify-builds/meetingLambda-4f4e34647155677a6134-build.zip"
+        }
+      }
+    }
+  }
+}

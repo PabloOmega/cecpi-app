@@ -1,0 +1,129 @@
+type Message @model 
+@auth(rules: [{allow: public, operations: [create, read, update, delete]}])
+{
+  id: ID!
+  content: String
+  senderName: String
+  type: String
+  receiverID: ID
+  meetingID: ID @index(name: "byMeeting")
+  attendeeID: ID @index(name: "byAttendee")
+}
+
+type Meeting @model 
+@auth(rules: [{allow: public, operations: [create, read, update, delete]}])
+{
+  id: ID!
+  title: String
+  data: String
+  date: AWSDate
+  time: AWSTime
+  description: String
+  channelArn: String
+  endpointMessaging: String
+  mediaCaptureData: String
+  programID: ID @index(name: "byProgram")
+  Attendees: [Attendee] @hasMany(indexName: "byMeeting", fields: ["id"])
+  Messages: [Message] @hasMany(indexName: "byMeeting", fields: ["id"])
+}
+
+type Attendee @model 
+@auth(rules: [{allow: public, operations: [create, read, update, delete]}])
+{
+  attendeeId: ID! @primaryKey
+  name: String
+  data: String
+  raisedHand: Boolean
+  userArn: String
+  meetingID: ID @index(name: "byMeeting")
+  Student: Student @hasOne
+  Messages: [Message] @hasMany(indexName: "byAttendee", fields: ["attendeeId"])
+}
+
+type Query {
+  createChimeMeeting(externalMeetingId: String, name: String, region: String): Response @function(name: "meetingLambda-${env}") @auth(rules: [{allow: private, provider: userPools}])
+  joinChimeMeeting(meetingId: String, name: String): Response @function(name: "meetingLambda-${env}") @auth(rules: [{allow: private, provider: userPools}])
+  endChimeMeeting(meetingId: String): Response  @function(name: "meetingLambda-${env}") @auth(rules: [{allow: private, provider: userPools}])
+  createAppInstance(name: String): Response  @function(name: "meetingLambda-${env}") @auth(rules: [{allow: private, provider: userPools}])
+  createAppInstanceUser(userId: String, name: String): Response  @function(name: "meetingLambda-${env}") @auth(rules: [{allow: private, provider: userPools}])
+  createChannel(chimeBearer: String, name: String, mode: String, privacy: String, moderatorArn: String): Response  @function(name: "meetingLambda-${env}") @auth(rules: [{allow: private, provider: userPools}])  
+  joinChannel(channelArn: String, chimeBearer: String, memberArn: String, type: String): Response  @function(name: "meetingLambda-${env}") @auth(rules: [{allow: private, provider: userPools}])  
+  sendMessage(channelArn: String, chimeBearer: String, content: String, persistence: String, type: String): Response  @function(name: "meetingLambda-${env}") @auth(rules: [{allow: private, provider: userPools}])  
+  getMessagingEndpoint: Response  @function(name: "meetingLambda-${env}") @auth(rules: [{allow: private, provider: userPools}]) 
+  recordMeeting(meetingArn: String, folderName: String): Response  @function(name: "meetingLambda-${env}") @auth(rules: [{allow: private, provider: userPools}])  
+  stopRecordMeeting(mediaPipelineId: String): Response  @function(name: "meetingLambda-${env}") @auth(rules: [{allow: private, provider: userPools}])
+  generateRecordFile(mediaPipelineArn: String, folderName: String): Response  @function(name: "meetingLambda-${env}") @auth(rules: [{allow: private, provider: userPools}])
+}
+
+type Response {
+  statusCode: String! @auth(rules: [{allow: private, provider: userPools}])
+  headers: String @auth(rules: [{allow: private, provider: userPools}])
+  body: String @auth(rules: [{allow: private, provider: userPools}])
+  isBase64Encoded: String @auth(rules: [{allow: private, provider: userPools}])
+}
+
+type Progress @model @auth(rules: [{allow: public}, {allow: owner}, {allow: private, operations: [create, read]}]) {
+  id: ID!
+  progress: String
+  studentID: ID! @index(name: "byStudent")
+  Step: Step @hasOne
+}
+
+type Video @model @auth(rules: [{allow: public, operations: [read]}, {allow: owner}, {allow: private, operations: [read]}]) {
+  id: ID!
+  title: String!
+  path: String
+  description: String
+  poster: String
+}
+
+type Step @model @auth(rules: [{allow: public, operations: [create, read]}, {allow: owner}, {allow: private, operations: [create, read, update]}]) {
+  id: ID!
+  title: String!
+  description: String
+  poster: String
+  order: Int
+  Video: Video @hasOne
+  unitID: ID @index(name: "byUnit", sortKeyFields: ["order"])
+}
+
+type Unit @model @auth(rules: [{allow: public, operations: [read, create]}, {allow: private, operations: [create, read, update]}, {allow: owner}]) {
+  id: ID!
+  title: String!
+  poster: String
+  order: Int
+  programID: ID! @index(name: "byProgram", sortKeyFields: ["order"])
+  Steps: [Step] @hasMany(indexName: "byUnit", fields: ["id"])
+}
+
+type Program @model @auth(rules: [{allow: private, provider: userPools, operations: [create, read, update]}, {allow: public, operations: [read]}, {allow: owner}]) {
+  id: ID!
+  name: String!
+  type: String!
+  price: Float!
+  discount: Float
+  isLive: Boolean
+  image: AWSURL
+  shortDescription: String
+  students: [Student] @manyToMany(relationName: "StudentProgram")
+  instructors: [Instructor] @manyToMany(relationName: "InstructorProgram")
+  Units: [Unit] @hasMany(indexName: "byProgram", fields: ["id"])
+  Meetings: [Meeting] @hasMany(indexName: "byProgram", fields: ["id"])
+}
+
+type Instructor @model @auth(rules: [{allow: private, provider: userPools, operations: [create, read, update]}, {allow: public, operations: [read]}, {allow: owner}]) {
+  userId: ID! @primaryKey
+  email: AWSEmail!
+  Programs: [Program] @manyToMany(relationName: "InstructorProgram")
+  name: String!
+}
+
+type Student @model @auth(rules: [{allow: private, provider: userPools, operations: [create, read, update]}, {allow: public, operations: [read]}, {allow: owner}]) {
+  id: ID!
+  userId: ID!
+  email: AWSEmail!
+  Programs: [Program] @manyToMany(relationName: "StudentProgram")
+  name: String!
+  Progresses: [Progress] @hasMany(indexName: "byStudent", fields: ["id"])
+}
+ 
