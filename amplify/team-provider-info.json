@@ -30,7 +30,7 @@
       "function": {
         "meetingLambda": {
           "deploymentBucketName": "amplify-cecpiapp-dev-124814-deployment",
-          "s3Key": "amplify-builds/meetingLambda-4f4e34647155677a6134-build.zip"
+          "s3Key": "amplify-builds/meetingLambda-56706478534567505543-build.zip"
         }
       }
     }

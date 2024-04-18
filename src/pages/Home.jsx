@@ -10,11 +10,11 @@ import {
     TextField,
     useTheme
 } from '@aws-amplify/ui-react';
-import { ParallaxProvider, ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
 import ImageButtonTextSection from "./components/ImageButtonTextSection"
 import GridIconTextSection from "./components/GridIconTextSection"
 import BannerSection from "./components/BannerSection"
 import ParallaxSection from "./components/ParallaxSection"
+import PartnersSection from "./components/PartnersSection"
 import portada from '../assets/portada.jpg'
 import reactLogo from '../assets/react.svg'
 
@@ -162,28 +162,12 @@ const Home = () => {
                     },
                 ]}
             />
-            <Card as="section">
-                <Flex
-                    direction="row"
-                    gap="2rem"
-                    justifyContent="center"
-                    alignContent="stretch"
-                    alignItems="stretch"
-                >
-                    <Heading level={2} marginBlock="auto">Partners</Heading>
-                    <Divider orientation="vertical" />
-                    <Card>
-                        <Flex
-                            direction="row"
-                            gap="1rem"
-                        >
-                            <Image src={reactLogo} width="100px" />
-                            <Image src={reactLogo} width="100px" />
-                            <Image src={reactLogo} width="100px" />
-                        </Flex>
-                    </Card>
-                </Flex>
-            </Card>
+            <PartnersSection partners={
+                [
+                    { icon: reactLogo, href: null }, { icon: reactLogo, href: null }, { icon: reactLogo, href: null }
+                ]
+                }  
+            />
             <Card as="section">
                 <Flex
                     as="form"
