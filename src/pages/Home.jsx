@@ -17,6 +17,9 @@ import ParallaxSection from "./components/ParallaxSection"
 import PartnersSection from "./components/PartnersSection"
 import portada from '../assets/portada.jpg'
 import reactLogo from '../assets/react.svg'
+import {
+    SubscriberCreateForm
+} from '../ui-components';
 
 const firstGrid = [
     {
@@ -168,32 +171,11 @@ const Home = () => {
                 ]
                 }  
             />
-            <Card as="section">
-                <Flex
-                    as="form"
-                    direction="column"
-                    gap="1rem"
-                    justifyContent="center"
-                    alignItems="center"
-                    alignContent="center"
-                    width="40%"
-                    marginInline="auto"
-                >
-                    <TextField
-                        label={
-                            <Heading level={3} marginBottom="large">
-                                Suscríbete para estar al tanto de nuestras últimas novedades
-                            </Heading>
-                        }
-                        errorMessage="Ingresa un correo válido"
-                        isRequired={true}
-                        type="email"
-                        placeholder="ej:email@dominio.com"
-                        outerEndComponent={<Button type="submit">Suscribirme</Button>}
-                        placeContent="center"
-                    />
-                </Flex>
-            </Card>
+            <Flex as="section" width="50%" marginInline="auto">
+                <SubscriberCreateForm
+                    onError={(modelFields, messages) => console.log(modelFields, messages)}
+                />
+            </Flex>
         </Flex>
     );
 };

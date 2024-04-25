@@ -27,11 +27,6 @@ export declare type MeetingCreateFormInputValues = {
     time?: string;
     description?: string;
     programID?: string;
-    channelArn?: string;
-    endpointMessaging?: string;
-    mediaCaptureData?: string;
-    Attendees?: any[];
-    Messages?: any[];
 };
 export declare type MeetingCreateFormValidationValues = {
     title?: ValidationFunction<string>;
@@ -39,11 +34,6 @@ export declare type MeetingCreateFormValidationValues = {
     time?: ValidationFunction<string>;
     description?: ValidationFunction<string>;
     programID?: ValidationFunction<string>;
-    channelArn?: ValidationFunction<string>;
-    endpointMessaging?: ValidationFunction<string>;
-    mediaCaptureData?: ValidationFunction<string>;
-    Attendees?: ValidationFunction<any>;
-    Messages?: ValidationFunction<any>;
 };
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type MeetingCreateFormOverridesProps = {
@@ -53,11 +43,6 @@ export declare type MeetingCreateFormOverridesProps = {
     time?: PrimitiveOverrideProps<TextFieldProps>;
     description?: PrimitiveOverrideProps<TextFieldProps>;
     programID?: PrimitiveOverrideProps<AutocompleteProps>;
-    channelArn?: PrimitiveOverrideProps<TextFieldProps>;
-    endpointMessaging?: PrimitiveOverrideProps<TextFieldProps>;
-    mediaCaptureData?: PrimitiveOverrideProps<TextFieldProps>;
-    Attendees?: PrimitiveOverrideProps<AutocompleteProps>;
-    Messages?: PrimitiveOverrideProps<AutocompleteProps>;
 } & EscapeHatchProps;
 export declare type MeetingCreateFormProps = React.PropsWithChildren<{
     overrides?: MeetingCreateFormOverridesProps | undefined | null;

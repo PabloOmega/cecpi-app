@@ -49,6 +49,8 @@ export { default as StepCreateForm } from "./StepCreateForm";
 export { default as StepUpdateForm } from "./StepUpdateForm";
 export { default as StudentCreateForm } from "./StudentCreateForm";
 export { default as StudentUpdateForm } from "./StudentUpdateForm";
+export { default as SubscriberCreateForm } from "./SubscriberCreateForm";
+export { default as SubscriberUpdateForm } from "./SubscriberUpdateForm";
 export { default as TallCard } from "./TallCard";
 export { default as UnitCreateForm } from "./UnitCreateForm";
 export { default as UnitUpdateForm } from "./UnitUpdateForm";

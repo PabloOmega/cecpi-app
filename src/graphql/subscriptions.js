@@ -1,6 +1,42 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
+export const onCreateSubscriber = /* GraphQL */ `
+  subscription OnCreateSubscriber(
+    $filter: ModelSubscriptionSubscriberFilterInput
+  ) {
+    onCreateSubscriber(filter: $filter) {
+      email
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`;
+export const onUpdateSubscriber = /* GraphQL */ `
+  subscription OnUpdateSubscriber(
+    $filter: ModelSubscriptionSubscriberFilterInput
+  ) {
+    onUpdateSubscriber(filter: $filter) {
+      email
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`;
+export const onDeleteSubscriber = /* GraphQL */ `
+  subscription OnDeleteSubscriber(
+    $filter: ModelSubscriptionSubscriberFilterInput
+  ) {
+    onDeleteSubscriber(filter: $filter) {
+      email
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`;
 export const onCreateMessage = /* GraphQL */ `
   subscription OnCreateMessage($filter: ModelSubscriptionMessageFilterInput) {
     onCreateMessage(filter: $filter) {

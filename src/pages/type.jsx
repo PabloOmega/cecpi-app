@@ -6,12 +6,11 @@ import {
     Heading,
     Text,
     Image,
-    Link,
-    Divider,
     Button,
     Collection,
     useTheme
 } from '@aws-amplify/ui-react';
+import ProgramCard from './components/ProgramCard';
 import { generateClient } from "aws-amplify/api";
 import { listPrograms } from "../graphql/queries";
 
@@ -66,35 +65,8 @@ const Type = () => {
                 </Flex>
             }
         >
-            {(item, index) => (
-                <Card
-                    key={index}
-                    borderRadius="medium"
-                    maxWidth="20rem"
-                    gap="2rem"
-                    padding="large"
-                    backgroundColor={tokens.colors.background.secondary}
-                >
-                    <Flex direction="column" alignContent="center" alignItems="center">
-                        <Heading level={3}>{item.name}</Heading>
-                        <Image src={item.image} alt={item.name} borderRadius="medium" />
-                        {
-                            item.discount ? (
-                                <Flex direction="column">
-                                    <Heading level={3} textDecoration="line-through" color="red">{"$ " + item.price}</Heading>
-                                    <Heading level={3}>{"$ " + (item.price - item.discount).toFixed(2)}</Heading>
-                                </Flex>
-                            ) : (
-                                <Heading level={3}>{item.price}</Heading>
-                            )
-                        }
-                        <Text>{item.shortDescription}</Text>
-                        <Button variation="primary" onClick={() => navigate(`/inscripcion/${item.id}`)}>
-                            Inscribirme
-                        </Button>
-                        <Button>Contenido</Button>
-                    </Flex>
-                </Card>
+            {(program) => (
+                <ProgramCard key={program.id} program={program} />
             )}
         </Collection>
     );

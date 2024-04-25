@@ -1,3 +1,9 @@
+
+type Subscriber @model
+@auth(rules: [{allow: public, operations: [create]}]){
+  email: AWSEmail! @primaryKey
+}
+
 type Message @model 
 @auth(rules: [{allow: public, operations: [create, read, update, delete]}])
 {

@@ -1,6 +1,42 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
+export const getSubscriber = /* GraphQL */ `
+  query GetSubscriber($email: AWSEmail!) {
+    getSubscriber(email: $email) {
+      email
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`;
+export const listSubscribers = /* GraphQL */ `
+  query ListSubscribers(
+    $email: AWSEmail
+    $filter: ModelSubscriberFilterInput
+    $limit: Int
+    $nextToken: String
+    $sortDirection: ModelSortDirection
+  ) {
+    listSubscribers(
+      email: $email
+      filter: $filter
+      limit: $limit
+      nextToken: $nextToken
+      sortDirection: $sortDirection
+    ) {
+      items {
+        email
+        createdAt
+        updatedAt
+        __typename
+      }
+      nextToken
+      __typename
+    }
+  }
+`;
 export const getMessage = /* GraphQL */ `
   query GetMessage($id: ID!) {
     getMessage(id: $id) {
